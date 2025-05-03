@@ -1,5 +1,10 @@
 # TradeX SDK
 
+## Installation
+
+Run the below command in your project's root directory using Command Prompt or VS Code
+`npm i tradex-sdk`
+
 ## Initialization
 
 First, create an instance of `TradeXClient`:
