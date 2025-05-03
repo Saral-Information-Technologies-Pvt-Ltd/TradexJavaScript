@@ -3,7 +3,7 @@
 ## Installation
 
 Run the below command in your project's root directory using Command Prompt or VS Code
-`npm i tradex-sdk`
+```npm i tradex-sdk```
 
 ## Initialization
 
