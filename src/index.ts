@@ -59,17 +59,15 @@ async function init(): Promise<void> {
   const tradexClient = new TradeXClient(
     {
       apiBaseUrl: "tradex.saral-info.com",
-      appKey:
-        "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOiIxNzQ0MzcyOTU1IiwiaXNzIjoiU2FyYWwiLCJleHAiOiIxNzc1ODY1NjAwIiwiYXVkIjoiUzEyMyIsImp0aSI6IjY5IiwiZmxnIjoiNjQifQ.ygpgQQDAhyUiRKo2qj7oGxg60YgJNa-Who6Q7DpvxyM",
-      secretKey:
-        "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOiIxNzQ0MzcyOTU1IiwiaXNzIjoiU2FyYWwiLCJleHAiOiIxNzc1ODY1NjAwIiwiYXVkIjoiUzEyMyIsImp0aSI6IjY5IiwiZmxnIjoiMTI4Iiwic2NwIjoiMCIsInNvdXJjZSI6IlNvbG8iLCJ3aGl0ZWxpc3QiOiIiLCJ0cmQiOiIyODE1IiwicHJkIjoiMTUifQ.4O4EUDUZU8wx_UX68Ev7cUXHId_Cr8U7WrVbUfx9eY4",
+      appKey: "",
+      secretKey: "",
       clientId: "",
       enableHttps: true,
       logResponseOnConsole: true,
       nonSslPort: 30000,
       sslPort: 30001,
       source: "Test",
-      userId: "S123",
+      userId: "test01",
       websocketBaseUrl: "tradex.saral-info.com",
     },
     onOrderEventReceived,
