@@ -2,14 +2,24 @@
 
 ## Installation
 
-Run the below command in your project's root directory using Command Prompt or VS Code
+You can use this library in 2 ways i.e. `Production` build or `Development` build. Run the below commands in your project's root directory. You can use `Command Prompt` or any code editor that supports terminal.
+
+- To use the production build, run the below command:
+
 ```
 npm i tradex-sdk
 ```
 
+- To use the development build directly, clone/download the repository and then run the below command. This will install all the required dependencies.
+
+```
+npm install
+```
+
 ## Initialization
 
-First, create an instance of `TradeXClient`:
+- Firstly, create a file called `index.ts` or `index.js` in your project's root directory (Only if you opt for `Production` build otherwise `Development` build already includes everything).
+- Secondly, create an instance of `TradeXClient`:
 
 ```ts
 import { TradeXClient } from "tradex-sdk";
